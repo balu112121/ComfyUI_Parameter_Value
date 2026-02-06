@@ -1,0 +1,27 @@
+{
+    "Parameter_Value_Number": {
+        "title": "值数",
+        "description": "自定义两个数值输入，可连接值数切换节点的value1和value2",
+        "inputs": {
+            "value1": "值数1",
+            "value2": "值数2"
+        },
+        "outputs": {
+            "value1": "值数1输出",
+            "value2": "值数2输出"
+        }
+    },
+    "Parameter_Value_Switch": {
+        "title": "值数切换",
+        "description": "在两个数值之间切换，可连接K采样器的步数、CFG、降噪等参数",
+        "inputs": {
+            "switch_index": "切换索引",
+            "value1": "值数1",
+            "value2": "值数2"
+        },
+        "outputs": {
+            "切换值": "切换后的数值",
+            "切换索引": "当前索引"
+        }
+    }
+}
